@@ -13,7 +13,7 @@ Also, I've shown how to parse HDFS recursive directory listing to visualize HAWQ
 
 ## Python query plan parsing
 [HAWQ Query plan parsing Python - IPython Notebook](http://nbviewer.ipython.org/github/kdunn-pivotal/hawq-tools/blob/master/explainToDot.ipynb)
-In this notebook I've developed a Python parsing script for query plans generated using EXPLAIN ANALYZE. The goal is visualize query plans using Graphviz and eventually in D3.js as well. The following with eventually be incorporated *visually*:
+In this notebook I've developed a Python parsing script for query plans generated using EXPLAIN ANALYZE. The goal is visualize query plans using Graphviz and eventually in D3.js as well. The following will eventually be incorporated *visually*:
 - Relative row counts
 - Relative costs
 - Number of slices
