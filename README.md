@@ -2,7 +2,7 @@
 Python tools for making life with HAWQ easier
 
 ## Python+HAWQ Querying and Analysis
-[Using Python with HAWQ - IPython Notebook](http://nbviewer.ipython.org/github/kdunn-pivotal/hawq-tools/blob/master/hawqTest.ipynb)
+[Using Python with HAWQ - IPython Notebook](http://nbviewer.ipython.org/github/Pivotal-Field-Engineering/hawq-python-tools/blob/master/hawqTest.ipynb)
 In this notebook I've demonstrated using the following with HAWQ:
 - PSYCOPG2 and Pandas (Querying in SQL)
 - SQLAlchemy (Querying in SQL)
@@ -12,8 +12,8 @@ Also, I've shown how to parse HDFS recursive directory listing to visualize HAWQ
 
 
 ## Python query plan parsing
-[HAWQ Query plan parsing Python - IPython Notebook](http://nbviewer.ipython.org/github/kdunn-pivotal/hawq-tools/blob/master/explainToDot.ipynb)
-In this notebook I've developed a Python parsing script for query plans generated using EXPLAIN ANALYZE. The goal is visualize query plans using Graphviz and eventually in D3.js as well. The following will eventually be incorporated *visually*:
+[Query plan parsing Python - IPython Notebook](http://nbviewer.ipython.org/github/Pivotal-Field-Engineering/hawq-python-tools/blob/master/explainToDot.ipynb)
+In this notebook I've developed a Python parsing script for query plans generated using EXPLAIN ANALYZE. The goal is visualize query plans using Graphviz and eventually in D3.js as well. The following will eventually be better incorporated *visually* (e.g. color, size):
 - Relative row counts
 - Relative costs
 - Number of slices
