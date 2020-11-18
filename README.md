@@ -1,4 +1,4 @@
-# hawq-tools
+<h1> VMware has ended active development of this project, this repository will no longer be updated.</h1><br># hawq-tools
 Python tools for making life with HAWQ easier
 
 ## PySparkSQL Parquet to TSV(gzip) Converter
